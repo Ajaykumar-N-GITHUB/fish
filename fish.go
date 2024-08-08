@@ -1,9 +1,14 @@
 package fish
 
+import "github.com/Ajaykumar-N-GITHUB/marine"
+
 func Fishing(s string) string {
-	return s + " is a fisher man"
+	p1 := marine.Seafisher(s)
+	return p1 + " is a fisher man"
 }
 
 func NotFishing(r string) string {
-	return r + "not a fisher man"
+
+	p2 := marine.Teaching(r)
+	return p2 + " not a fisher man"
 }
